@@ -44,8 +44,8 @@ We can pass functions to other functions as arguments.
 <summary>Answer</summary>
 
 ```js
-function logger(x) {
-  console.log(x);
+function logger(thing) {
+  console.log(thing);
 }
 
 logger(returnsOne);
@@ -92,8 +92,8 @@ This is often a source of confusion when passing functions as arguments.
    <summary>Answer</summary>
 
    ```js
-   function logger(x) {
-     console.log(x);
+   function logger(thing) {
+     console.log(thing);
    }
 
    logger(returnsOne);
@@ -111,8 +111,8 @@ This is often a source of confusion when passing functions as arguments.
    <summary>Answer</summary>
 
    ```js
-   function logger(x) {
-     console.log(typeof x);
+   function logger(thing) {
+     console.log(typeof thing);
    }
 
    logger(returnsOne);
@@ -136,7 +136,7 @@ window.addEventListener("click", event => {
 
 ## Challenge
 
-1. Copy the event listener code into your editor
+1. Type the event listener code into your editor
 1. Extract the inline function and assign it to a variable
 1. Use the extracted function as your event listener
 
