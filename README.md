@@ -203,7 +203,7 @@ one(console.log);
 
 ## Async
 
-The callback above might feel a bit pointless: why not just have the `one` function _return_ `1`? They make more sense when dealing with _asynchronous_ code. Sometimes we don't have a value to return straight away.
+The callback above might feel a bit pointless: why not just have the `one` function _return_ `1`? Callbacks make more sense when dealing with _asynchronous_ code. Sometimes we don't have a value to return straight away.
 
 For example network requests and timeouts can take multiple seconds to complete. JavaScript doesn't wait for these—it keeps on going and executes the next statements in the script.
 
