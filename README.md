@@ -251,4 +251,4 @@ Let's make some traffic lights.
 
 ### Bonus (if you have time)
 
-Traffic light patterns are a bit more complex. The sequence should actually be `"green"`, `"amber"`, `"red"`, `"red"` and `"amber"`, `"green"`. Without changing `light`, create the new sequence.
+Traffic light patterns are a bit more complex. The sequence should actually be `"green"`, `"amber"`, `"red"`, `"red"` and `"amber"` (at the same time), `"green"`. Without changing `light`, create the new sequence.
